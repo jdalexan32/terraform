@@ -31,4 +31,6 @@ override.tf.json
 # Compiled files
 *.tfstate
 *.tfstate.backup
-*.tfstate.lock.hcl
+
+# .lock.hcl files
+*.terraform.lock.hcl
