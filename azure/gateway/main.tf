@@ -1,4 +1,3 @@
-#jay
 # Configure Azure Provider source and version being used
 # https://registry.terraform.io/providers/hashicorp/azurerm/latest
 terraform {
