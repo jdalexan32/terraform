@@ -1,0 +1,11 @@
+1. Go to -> gateway-vNetGateway | Point-to-site configuration
+2. Download VPN client
+3. Save 'gateway-vNetGateway' to local machine
+4. Open profileinfo.txt 
+5. Edit vpnconfig.ovpn
+   a) Copy paste client certificate into vpnconfig.ovpn
+   b} Copy paste private key into vpnconfig.ovpn
+   
+   https://docs.microsoft.com/en-us/azure/vpn-gateway/vpn-gateway-howto-openvpn-clients
+
+6. Copy the vpnconfig.ovpn file to C:\Program Files\OpenVPN\config folder
