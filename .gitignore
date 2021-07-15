@@ -32,5 +32,6 @@ override.tf.json
 *.tfstate
 *.tfstate.backup
 
-# .lock.hcl files
+# other terraform files
 *.terraform.lock.hcl
+*.terraform.lock*
