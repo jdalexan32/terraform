@@ -9,6 +9,7 @@ Terraform code to build a vpn gateway in Azure as illustrated below.
 * Terraform installed, see https://learn.hashicorp.com/tutorials/terraform/install-cli?in=terraform/aws-get-started  
 * An Azure subscription. Create a free account at https://azure.microsoft.com/en-us/free/
 * Azure CLI Tool installed, see https://docs.microsoft.com/en-us/cli/azure/install-azure-cli  
+* VPN client installed such as OpenVPN (https://docs.microsoft.com/en-us/azure/vpn-gateway/vpn-gateway-howto-openvpn-clients)
 
 ### Configurations Required ###
 * Edit the ```variables.tf``` file - update "*subscriptionid*" variable with your Azure Azure Subscription ID
