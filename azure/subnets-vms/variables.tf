@@ -1,7 +1,7 @@
 variable "subscriptionid" {
   type        = string
   description = "Azure Subscription ID"
-  default     = "<AZURE SUBSCRIPTION ID>"                            # <----------------- EDIT ------------------
+  default     = "<AZURE SUBSCRIPTION ID>"                          # <----------------- EDIT ------------------
 }
 
 variable "location" {
@@ -31,7 +31,7 @@ variable "vnet_cidr_block" {
 variable "subnets_per_vnet" {
   description = "Number of subnets. Maximum of 4."
   type        = number
-  default     = 2
+  default     = 2                                                  # <----------------- EDIT ------------------
 }
 
 variable "subnet_prefixes" {
@@ -59,13 +59,13 @@ variable "subnet_names" {
 variable "vm_instances_per_subnet" {
   description = "Number of vm instances in each subnet"
   type        = number
-  default     = 2
+  default     = 2                                                 # <----------------- EDIT ------------------
 }
 
 variable "user_name" {
   description = "Username for VMs"
   type        = string
-  default     = "<USERNAME>"                                         # <----------------- EDIT ------------------
+  default     = "<USERNAME>"                                      # <----------------- EDIT ------------------
 }
 
 variable "public_key_path" {
@@ -76,5 +76,5 @@ variable "public_key_path" {
     Example: ~/.ssh/terraform.pub
     DESCRIPTION
   type        = string
-  default     = "<PATH>"                                             # <----------------- EDIT ------------------
+  default     = "<PATH>"                                          # <----------------- EDIT ------------------
 }
