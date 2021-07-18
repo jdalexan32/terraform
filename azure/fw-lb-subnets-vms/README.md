@@ -1,4 +1,4 @@
-# Azure Firewall, Loadbalancer, Subnets and VM's #  
+# Azure Firewall, Load Balancer, Subnets and VM's #  
 Terraform code to build an infrastructure consisting of a Azure Firewall, Loadbalancer, multiple Subnets, Security Groups and Linux VM's. The number of Subnets and VM's-per-subnet is configurable.  
 
 ![project2](https://user-images.githubusercontent.com/15988353/126065247-7e8c5a16-2ea7-4190-aa08-f649ddcf59d5.png)
@@ -17,6 +17,7 @@ Terraform code to build an infrastructure consisting of a Azure Firewall, Loadba
  2. Edit "*user_name*"
  3. Edit "*public_key_path*"
 * Edit ```linux_config.sh``` script - update script with your username 
+* Edit ```main.tf``` file - update admin username for VMs
 
 - - -  
 ## Deploy Infrastructure ##
