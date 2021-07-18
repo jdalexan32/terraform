@@ -11,5 +11,4 @@ variable "location" {
 
 variable "prefix" {
   description = "The prefix which should be used for all resources in this module"
-  default = "project1"
 }
