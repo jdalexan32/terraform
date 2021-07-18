@@ -1,4 +1,4 @@
-# terraform azure #
+# Terraform for Azure #
 
 ## Terraform Prerequisites ##
 
