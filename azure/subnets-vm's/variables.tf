@@ -1,7 +1,7 @@
 variable "subscriptionid" {
   type        = string
   description = "Azure Subscription ID"
-  default     = "<change>"          #<---------------------change
+  default     = "<AZURE SUBSCRIPTION ID>"                            # <----------------- EDIT ------------------
 }
 
 variable "location" {
@@ -13,13 +13,13 @@ variable "location" {
 variable "resourcegroup" {
   description = "The resourcegroup for this module."
   type        = string
-  default     = "outfield"
+  default     = "project1"
 }
 
 variable "project_name" {
   description = "Name of the project. Used in resource names and tags."
   type        = string
-  default     = "outfield"
+  default     = "project1"
 }
 
 variable "vnet_cidr_block" {
@@ -65,7 +65,7 @@ variable "vm_instances_per_subnet" {
 variable "user_name" {
   description = "Username for VMs"
   type        = string
-  default     = "<change>"          #<---------------------change
+  default     = "<USERNAME>"                                         # <----------------- EDIT ------------------
 }
 
 variable "public_key_path" {
@@ -76,5 +76,5 @@ variable "public_key_path" {
     Example: ~/.ssh/terraform.pub
     DESCRIPTION
   type        = string
-  default     = "<change>"          #<---------------------change
+  default     = "<PATH>"                                             # <----------------- EDIT ------------------
 }
