@@ -1,6 +1,9 @@
 # gateway #  
 Terraform code to build a vpn gateway in Azure
 
+![image](https://user-images.githubusercontent.com/15988353/126059122-289c382f-b260-492f-9d55-3083dc33ee73.png)
+
+
 ### Prerequisites ###
 
 * Terraform installed, see https://learn.hashicorp.com/tutorials/terraform/install-cli?in=terraform/aws-get-started  
