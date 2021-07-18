@@ -23,7 +23,7 @@ Terraform code to build a simple infrastructure consisting of multiple Subnets, 
 ## Deploy Infrastructure ##
 
 1. Clone or download files in this repository
-2. Edit the ```variables.tf``` file and the Edit ```linux_config.sh``` script (see above Configurations Required)
+2. Edit the ```variables.tf``` file and ```linux_config.sh``` script (see above Configurations Required)
 3. ```terraform init```
 4. ```terraform plan```
 5. ```terraform apply```
