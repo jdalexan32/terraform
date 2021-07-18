@@ -1,4 +1,4 @@
-# gateway #  
+# Multiple Subnets and VM's #  
 Terraform code to build a simple infrastructure consisting of multiple Subnets, Security Groups and Linux VM's. The number of Subnets and VM's-per-subnet is configurable.  
 
 
