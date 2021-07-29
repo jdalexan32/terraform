@@ -24,7 +24,7 @@ variable "aws_region" {
 variable "project_name" {
   description = "Name of the project. Used in resource names and tags."
   type        = string
-  default     = "project2"                                        # <----------------- EDIT ------------------
+  default     = "project3"                                        # <----------------- EDIT ------------------
 }
 
 variable "vpc_cidr_block" {
