@@ -12,7 +12,7 @@ The AWS terraform code creates a VPC, load balancer, public and private subnets 
 * AWS CLI Tool installed, see https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html
 * Your AWS credentials. You can create a new Access Key on this page - https://console.aws.amazon.com/iam/home?#/security_credentials  
 
-## AWS Configurations ##  
+## Terraform Required Configurations ##  
 #### Edit the ```variables.tf``` file ####
 * Update "*public_key_path*" variable with your public key path
 * Change any other variables per need  
