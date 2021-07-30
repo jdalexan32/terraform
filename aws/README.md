@@ -1,7 +1,7 @@
 # Terraform for AWS #  
 The AWS terraform code creates a VPC, load balancer, public and private subnets in two availability zones, security groups, Linux VMs in the various subnets, routing tables and an internet gateway. The number of subnets and VM's per subnet is configurable.  
 
-![project3](https://user-images.githubusercontent.com/15988353/127529434-813ad557-439b-4e3f-b667-1b49e270ebb1.png)
+![aws2TierArch](https://user-images.githubusercontent.com/15988353/127636735-d77364fe-c739-4b67-9f8b-556e2d4571b5.png)
 
 ## Terraform Prerequisites ##
 
