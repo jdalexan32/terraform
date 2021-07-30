@@ -12,7 +12,7 @@ variable "public_key_path" {
 variable "key_name" {
   description = "Desired name of AWS key pair"
   type        = string
-  default     = "terraform-provider-aws-project2"                 # <----------------- EDIT ------------------
+  default     = "terraform-provider-aws-key"                     # <----------------- EDIT ------------------
 }
 
 variable "aws_region" {
@@ -24,7 +24,7 @@ variable "aws_region" {
 variable "project_name" {
   description = "Name of the project. Used in resource names and tags."
   type        = string
-  default     = "project3"                                        # <----------------- EDIT ------------------
+  default     = "terraformAWS"                                    # <----------------- EDIT ------------------
 }
 
 variable "vpc_cidr_block" {
