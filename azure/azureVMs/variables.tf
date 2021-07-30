@@ -19,7 +19,7 @@ variable "resourcegroup" {
 variable "project_name" {
   description = "Name of the project. Used in resource names and tags."
   type        = string
-  default     = "azureVMs"
+  default     = "azureVMs" ##
 }
 
 variable "vnet_cidr_block" {

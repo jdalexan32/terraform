@@ -8,3 +8,4 @@ output "linux_public_ip_address" {
     data.azurerm_public_ip.vm_pip.*.ip_address,
   ]
 }
+##
