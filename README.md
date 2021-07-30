@@ -1,2 +1,2 @@
 # terraform
-terraform files for creating infrastructure in the public clouds
+terraform files for creating infrastructure in the public clouds.
