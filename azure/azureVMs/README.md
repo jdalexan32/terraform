@@ -1,9 +1,7 @@
 # Multiple Subnets and VM's #  
 Terraform code to build a simple infrastructure consisting of multiple Subnets, Security Groups and Linux VM's. The number of Subnets and VM's-per-subnet is configurable.  
 
-
-![project1](https://user-images.githubusercontent.com/15988353/126063627-daaca52c-8c12-46d5-b6fa-03572f08b26f.png)
-
+![azureVMs](https://user-images.githubusercontent.com/15988353/127638712-3c9e78ff-c96a-4e08-84f6-914264eddc6a.png)
 
 ### Prerequisites ###
 
