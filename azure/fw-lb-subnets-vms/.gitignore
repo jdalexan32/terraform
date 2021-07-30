@@ -1,8 +1,0 @@
-.terraform/
-.terraform.lock.hcl
-newplan
-sed.txt
-sites-available-default.conf
-steps.txt
-terraform.tfstate
-terraform.tfstate.backup
