@@ -24,7 +24,7 @@ variable "aws_region" {
 variable "project_name" {
   description = "Name of the project. Used in resource names and tags."
   type        = string
-  default     = "terraformAWS"                                    # <----------------- EDIT ------------------
+  default     = "aws2TierArch"                                    # <----------------- EDIT ------------------
 }
 
 variable "vpc_cidr_block" {
